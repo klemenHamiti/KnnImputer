@@ -1,10 +1,9 @@
 # KnnImputer
-Regression or Classification imputer that uses K-nearest neighbors algorithm to imput missing or false data.
+Regression or Classification imputer that uses K-nearest neighbors algorithm to imput missing data.
 Algorithm is compatible with sklearn Pipeline and uses same comands as any sklearn code.
 
 ### Initial Parameters
 - col_ix: index of response column
-- val_to_predict: discrete value you want to predict e.g. np.nan
 - job_type: is this regression or classification task
 - n_neighbors: how manny neighbors to use when fitting the model
 - n_jobs: how manny cpu cores to use
